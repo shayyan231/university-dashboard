@@ -1,0 +1,46 @@
+.studying-students-wrapper {
+  padding: 79px 24px 0 254px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  height: 100vh;
+  
+  h6 {
+    font-size: 14px;
+    color: #04041c;
+    // font-weight: bold;
+  }
+  .students-table {
+    tr {
+      .ant-table-cell {
+        font-size: 14px;
+        color: #04041c;
+        // padding: 9px 0px;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .ant-table-cell:nth-child(1) {
+        padding-left: 30px;
+      }
+      .ant-table-cell:last-child {
+        padding-right: 30px;
+      }
+    }
+    thead {
+      .ant-table-cell {
+        font-size: 14px;
+        color: #686874;
+        // padding: 15px 0 5px 0;
+        background-color: #ffffff;
+      }
+    }
+    .ant-pagination {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 30px;
+      border-radius: 0 0 4px 4px;
+
+      .ant-pagination-item {
+        display: none;
+      }
+    }
+  }
+}
